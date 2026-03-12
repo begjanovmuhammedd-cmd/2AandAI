@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tkm">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türkmenistanyň telekomunnikasiýalar we informatika instituty</title>
+    <style>
+        /* Genel Tasarım */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Üst Menü / Başlık */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* Kart Yapısı */
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            color: #2980b9;
+        }
+
+        /* Tablo Tasarımı (Sınavlar için) */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+
+        /* Link Butonları */
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .btn {
+            display: block;
+            background: #3498db;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+        }
+
+        /* Duyuru Alanı */
+        .announcement {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffca28;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>2AweAI okuw portaly</h1>
+        <p>Bildirişler,sapaklaryň tertibi we meýilnamalar</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>📢 Esasy bildirişler</h2>
+            <div class="announcement">
+                <strong>Bildiriş:</strong>Aralyk synaglar aprel aýynyň 09-na başlanýar!
+            </div>
+            <div class="announcement">
+                <strong>Ýatlatma:</strong>Ertir Iňlis dili sapagyndan özbaşdak işleri tabşyrmaly!
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📚 Sapaklaryň temalary</h2>
+            <div class="link-grid">
+                <a href="#" class="btn">System theory</a>
+                <a href="#" class="btn">Computer graphics</a>
+                <a href="#" class="btn">Ecology</a>
+                <a href="#" class="btn">Modern society</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2> Sapaklaryň tertibi</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sapagyň ady</th>
+                        <th>Sene</th>
+                        <th>Sagat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>System theory</td>
+                        <td>16 mart</td>
+                        <td>8:30</td>
+                    </tr>
+                    <tr>
+                        <td>System theory</td>
+                        <td>16 mart</td>
+                        <td>10:00</td>
+                    </tr>
+                    <tr>
+                      <td>Computer graphics</td>
+                      <td>16 mart</td>
+                      <td>11:45</td>
+                    </tr>
+                    <tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
